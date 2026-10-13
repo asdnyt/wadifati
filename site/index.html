@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>وظيفتي | إعلانات الوظيفة العمومية</title>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--tx:#14213d;--mu:#667085;--navy:#0a2a6b;--blue:#3b78e7;--yl:#f2b01e;--tl:#1aa59a;--bd:#e3e7ef;--pr2:#e8efff;--pr:#0a2a6b;--btn:#0a2a6b;--wa:#b4570a;--wa2:#fdf0e1;--rd:#a32626;--rd2:#fbe9e9;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1424;--card:#171f35;--tx:#e8ecf5;--mu:#98a2b8;--bd:#27314d;--pr2:#1d2b52;--pr:#8fb2ff;--btn:#3b78e7;--wa:#f0a65a;--wa2:#3a2a15;--rd:#f08a8a;--rd2:#3b1c1c}}
+:root[data-theme="dark"]{--bg:#0e1424;--card:#171f35;--tx:#e8ecf5;--mu:#98a2b8;--bd:#27314d;--pr2:#1d2b52;--pr:#8fb2ff;--btn:#3b78e7;--wa:#f0a65a;--wa2:#3a2a15;--rd:#f08a8a;--rd2:#3b1c1c}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--tx);font-family:'Almarai',Tahoma,Arial,sans-serif;line-height:1.6}
+.top{background:var(--card);border-bottom:1px solid var(--bd)}
+.in{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--tx);line-height:1.3}.logo svg{width:42px;height:42px;flex:none}.logo div{display:flex;flex-direction:column}
+.logo b{font-size:19px;font-weight:800;color:var(--pr)}.logo small{font-size:11px;color:var(--mu)}
+nav{display:flex;gap:18px;font-size:14px;font-weight:700}nav a{color:var(--tx);text-decoration:none}nav a:hover{color:var(--blue)}
+.hero{background:linear-gradient(135deg,#071d4d,#0a2a6b 55%,#1d4aa8);color:#fff;text-align:center;padding:34px 16px 70px}
+.hero h1{margin:0 0 6px;font-size:26px;font-weight:800}.hero p{margin:0 0 20px;font-size:14px;opacity:.85}
+.sb{max-width:760px;margin:0 auto;display:flex;background:#fff;border-radius:99px;overflow:hidden;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.sb input,.sb select{font:inherit;font-size:14px;border:0;outline:0;padding:14px 18px;color:#14213d;background:#fff;min-width:0}
+.sb input{flex:1}.sb select{border-inline-start:1px solid #e3e7ef;max-width:140px}
+.sb button{font:inherit;font-weight:800;border:0;background:var(--yl);color:#14213d;padding:0 22px;cursor:pointer}
+.stats{max-width:1100px;margin:-44px auto 0;padding:0 14px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.s{border-radius:18px;padding:16px 8px;text-align:center;color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.s b{display:block;font-size:30px;font-weight:800;line-height:1.2}.s span{font-size:13px}
+.s1{background:#0a2a6b}.s2{background:var(--yl);color:#14213d}.s3{background:#3b78e7}.s4{background:var(--tl)}
+main{max-width:1100px;margin:0 auto;padding:28px 14px 40px}
+.st{text-align:center;font-size:28px;font-weight:800;margin:0 0 6px;color:var(--tx)}
+.ul{width:80px;height:3px;background:var(--yl);margin:0 auto 20px}
+.sortbar{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--mu);margin-bottom:12px}
+.sortbar select{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--tx)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+.card{background:var(--card);border-radius:18px;padding:18px;display:flex;flex-direction:column;box-shadow:0 2px 10px rgba(10,42,107,.08);border:1px solid var(--bd)}
+.top2{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.av{width:44px;height:44px;border-radius:50%;background:var(--pr2);color:var(--pr);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;flex:none}
+.org{color:var(--mu);font-size:13px}
+.card h2{margin:0 0 12px;font-size:16px;font-weight:800;color:var(--tx);flex:1}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.tag{font-size:12px;padding:3px 9px;border-radius:99px;background:var(--pr2);color:var(--pr)}
+.tag.w{background:var(--wa2);color:var(--wa)}.tag.r{background:var(--rd2);color:var(--rd)}.tag.g{background:var(--bd);color:var(--mu)}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--mu)}
+.btn{display:inline-block;background:var(--btn);color:#fff;text-decoration:none;padding:9px 18px;border-radius:99px;font-size:13px;font-weight:700}
+button.btn{border:0;font:inherit;font-size:13px;font-weight:700;cursor:pointer}.btn.x{background:var(--bd);color:var(--tx)}
+.empty{text-align:center;color:var(--mu);padding:30px 0;grid-column:1/-1}
+.pop{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:flex-end;justify-content:center;z-index:9}.pop[hidden]{display:none}
+.box{background:var(--card);width:100%;max-width:760px;max-height:85%;overflow:auto;border-radius:18px 18px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px))}
+.box h2{margin:0 0 8px;font-size:18px}.box h3{font-size:14px;margin:14px 0 4px;color:var(--pr)}.box p{margin:6px 0;font-size:14px}.box ul{margin:0;padding-inline-start:20px;font-size:14px}
+.box table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14px}.box th{text-align:start;color:var(--mu);font-weight:400;padding:8px 0;width:38%;border-bottom:1px solid var(--bd)}.box td{padding:8px 0;border-bottom:1px solid var(--bd);font-weight:700}
+.note{color:var(--mu);font-size:12px!important;margin:12px 0!important}
+footer{background:var(--navy);color:#cdd8f0;font-size:12px;text-align:center;padding:20px 16px calc(20px + env(safe-area-inset-bottom,0px))}footer a{color:var(--yl)}
+@media(max-width:640px){nav a:first-child{display:none}.hero h1{font-size:21px}.stats{grid-template-columns:repeat(2,1fr)}.s b{font-size:26px}.sb select{max-width:96px;padding:14px 8px}.sb button{padding:0 16px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="in"><a class="logo" href="#"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#0a2a6b"/><path d="M18 17v-3a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v3" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/><rect x="9" y="17" width="30" height="21" rx="4.5" fill="#fff"/><rect x="9" y="26" width="30" height="2.6" fill="#cdd8f0"/><rect x="20.5" y="23.5" width="7" height="7.5" rx="1.8" fill="#f2b01e"/></svg><div><b>وظيفتي</b><small>كل مباريات الوظيفة العمومية</small></div></a><nav><a href="#sec">المباريات</a></nav></div></header>
+<section class="hero"><h1>إعلانات الوظيفة العمومية بالمغرب</h1><p>تابع مباريات التوظيف وآجال الترشح في مكان واحد</p>
+<div class="sb"><input id="q" type="search" placeholder="الكلمات المفتاحية: المنصب أو الإدارة"><select id="f"><option value="open">المفتوحة فقط</option><option value="all">جميع الإعلانات</option></select><button id="go">بحث</button></div></section>
+<div class="stats"><div class="s s4"><b id="n4">0</b><span>جهات منظمة</span></div><div class="s s3"><b id="n3">0</b><span>تنتهي خلال 7 أيام</span></div><div class="s s2"><b id="n2">0</b><span>مجموع المناصب</span></div><div class="s s1"><b id="n1">0</b><span>إعلانات مفتوحة</span></div></div>
+<main id="sec"><h2 class="st">المباريات</h2><div class="ul"></div>
+<div class="sortbar"><span id="st"></span><select id="s"><option value="d">الأقرب أجلاً</option><option value="n">الأكثر مناصب</option></select></div>
+<div id="list" class="grid"></div></main>
+<div id="pop" class="pop" hidden><div class="box"></div></div>
+<footer>المعطيات نسخة من البوابة الوطنية للتشغيل العمومي وقد لا تكون محدّثة. تأكد دائماً من الإعلان الرسمي على <a href="https://www.emploi-public.ma/ar/" target="_blank" rel="noopener">emploi-public.ma</a> — موقع مستقل غير رسمي.<br><span id="up"></span></footer>
+<script>
+var B="https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/";
+var A="https://www.emploi-public.ma/ar/%D8%AA%D8%AD%D9%85%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/arrete/";
+var D=[
+{t:"سكرتير(ة) الإدارة",o:"المركز الوطني للطاقة والعلوم والتقنيات النووية",n:1,d:"2026-10-14",h:"16:00",id:"017f6169-91af-4c7f-996d-25b2d109dbc5"},
+{t:"تقني من الدرجة الرابعة - سلم 8",o:"إقليم وزان",n:5,d:"2026-10-14",h:"16:30",e:"2026-11-15",desc:"تعلن الجماعة الترابية ونانة (إقليم وزان) عن تنظيم مباراة لتوظيف 5 تقنيين من الدرجة الرابعة (السلم 8) في عدة تخصصات، وذلك يوم الأحد 15 نونبر 2026.",spec:["الهندسة المدنية والأشغال الكبرى والأشغال العمومية (منصب واحد)","المعلوميات: تطوير، تدبير، شبكات أو صيانة (منصبان)","سياقة العربات وآليات الأشغال الكبرى، رخصة صنف C أو D (منصبان)"],cond:["الجنسية المغربية","السن من 18 إلى 40 سنة على الأكثر في فاتح يناير 2026 (قابل للتمديد إلى 45)","دبلوم تقني من مؤسسات التكوين المهني في التخصص المطلوب","رخصة السياقة صنف C أو D لتخصص السياقة"],docs:["طلب الترشيح موجه إلى رئيس المجلس الجماعي (الاسم، العنوان، الهاتف، التخصص)","سيرة ذاتية مع صورة حديثة","نسخة من الدبلوم (مع قرار المعادلة عند الاقتضاء)","نسخة من بطاقة التعريف الوطنية","ظرفان لاصقان يحملان الاسم والعنوان","ترخيص الإدارة للموظفين المترشحين"],id:"92084d9e-70c0-439e-8875-661a16fc3071"},
+{t:"إطار بمصلحة معالجة اتفاقيات الاستثمار",o:"المركز الجهوي للاستثمار لجهة الشرق",n:1,d:"2026-10-14",h:"16:30",id:"9de84bc6-7ae5-41d3-9a9f-91554b9ed02b"},
+{t:"Responsable Supervision Taux et Actions",o:"صندوق الإيداع والتدبير",n:1,d:"2026-10-14",h:"16:30",id:"e9cfe51b-c504-4210-9725-4f37683ea08d"},
+{t:"إطار عالٍ في الأمن",o:"المركز الوطني للطاقة والعلوم والتقنيات النووية",n:1,d:"2026-10-27",h:"16:00",id:"664ad6a3-9ea8-4320-9a6f-c9b7bf448102"},
+{t:"تقني من الدرجة الثالثة - سلم 9",o:"جامعة سيدي محمد بن عبد الله - فاس",n:7,d:"2026-10-09",h:"16:30",e:"2026-10-18",id:"d3ff3486-76fa-4edf-a028-ffce643fd5e1"},
+{t:"مهندس دولة من الدرجة الأولى - سلم 11",o:"جامعة سيدي محمد بن عبد الله - فاس",n:1,d:"2026-10-03",h:"16:30",e:"2026-10-11",id:"8905b0cc-8191-4de4-b4cb-9b1152a1e7a2"},
+{t:"دبلوم بكالوريا+3 في السياحة أو التواصل أو اللغات أو التجارة أو التسويق",o:"المكتب الوطني للمطارات",n:39,d:"2026-09-18",h:"23:00",id:"150f8f34-8163-4e87-9765-f294d63da979"}
+];
+var M=["يناير","فبراير","مارس","أبريل","ماي","يونيو","يوليوز","غشت","شتنبر","أكتوبر","نونبر","دجنبر"];
+function fmt(s){var p=s.split("-");return +p[2]+" "+M[+p[1]-1]+" "+p[0]}
+function days(s){var n=new Date();n.setHours(0,0,0,0);var p=s.split("-");return Math.round((new Date(+p[0],+p[1]-1,+p[2])-n)/864e5)}
+function esc(x){return x.replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+
+function render(){
+var q=document.getElementById("q").value.trim().toLowerCase(),f=document.getElementById("f").value,s=document.getElementById("s").value;
+var op=D.filter(function(x){return days(x.d)>=0});
+var orgs={};op.forEach(function(x){orgs[x.o]=1});
+document.getElementById("n1").textContent=op.length;
+document.getElementById("n2").textContent=op.reduce(function(a,x){return a+x.n},0);
+document.getElementById("n3").textContent=op.filter(function(x){return days(x.d)<=7}).length;
+document.getElementById("n4").textContent=Object.keys(orgs).length;
+var L=D.filter(function(x){return(f==="all"||days(x.d)>=0)&&(x.t+" "+x.o).toLowerCase().indexOf(q)>-1});
+L.sort(function(a,b){return s==="n"?b.n-a.n:(f==="all"?b.d.localeCompare(a.d):a.d.localeCompare(b.d))});
+document.getElementById("st").textContent=L.length+" إعلان";
+var h=L.map(function(x){var r=days(x.d),tag;
+if(r<0)tag='<span class="tag g">انتهى الأجل</span>';
+else if(r===0)tag='<span class="tag r">آخر يوم اليوم</span>';
+else if(r<=3)tag='<span class="tag r">متبقي '+r+' أيام</span>';
+else if(r<=10)tag='<span class="tag w">متبقي '+r+' أيام</span>';
+else tag='<span class="tag">متبقي '+r+' يوماً</span>';
+return '<div class="card"><div class="top2"><div class="av">'+esc(x.o.charAt(0))+'</div><div class="org">'+esc(x.o)+'</div></div><h2>'+esc(x.t)+'</h2><div class="meta">'+tag+'<span class="tag g">'+x.n+' '+(x.n>1?"مناصب":"منصب")+'</span>'+(x.e?'<span class="tag g">المباراة: '+fmt(x.e)+'</span>':'')+'</div><div class="row"><span>آخر أجل: '+fmt(x.d)+'</span><button class="btn" data-i="'+D.indexOf(x)+'">عرض التفاصيل</button></div></div>'}).join("");
+document.getElementById("list").innerHTML=h||'<div class="empty">لا توجد نتائج</div>'}
+["q","f","s"].forEach(function(i){document.getElementById(i).addEventListener("input",render)});
+document.getElementById("go").addEventListener("click",render);
+var P=document.getElementById("pop");
+var cur;function show(i){var x=cur=D[i],r=days(x.d),R=[["الإدارة المنظمة",x.o],["عدد المناصب",x.n],["آخر أجل للترشح",fmt(x.d)+" - "+x.h]];
+if(x.e)R.push(["تاريخ إجراء المباراة",fmt(x.e)]);
+R.push(["الأيام المتبقية",r<0?"انتهى الأجل":r+" يوم"]);
+var h='<h2>'+esc(x.t)+'</h2>'+(x.desc?'<p>'+esc(x.desc)+'</p>':'')+'<table>'+R.map(function(a){return'<tr><th>'+a[0]+'</th><td>'+esc(String(a[1]))+'</td></tr>'}).join("")+'</table>';
+[["docs","الوثائق المطلوبة"],["spec","التخصصات المطلوبة"],["cond","شروط الترشح"]].forEach(function(k){if(x[k[0]])h+='<h3>'+k[1]+'</h3><ul>'+x[k[0]].map(function(v){return'<li>'+esc(v)+'</li>'}).join("")+'</ul>'});
+if(!x.spec)h+='<h3>التخصصات المطلوبة</h3><p>غير متوفرة بعد لهذا الإعلان.</p>';
+h+='<h3>قرار فتح المباراة</h3><p>القرار الرسمي المنظم للمباراة (الشروط، التخصصات، المسطرة).</p><p><button class="btn" data-go="a">عرض القرار (PDF)</button></p>';
+h+='<p class="note">الترشح يتم حصرياً عبر «فضاء المترشح» في البوابة الرسمية.</p><div class="row"><button class="btn" data-go="b">الترشح عبر البوابة</button><button class="btn x" id="cl">إغلاق</button></div>';
+P.querySelector(".box").innerHTML=h;P.hidden=false;document.getElementById("cl").onclick=function(){P.hidden=true}}
+document.getElementById("list").addEventListener("click",function(e){var b=e.target.closest("button[data-i]");if(b)show(+b.dataset.i)});
+P.addEventListener("click",function(e){if(e.target===P)P.hidden=true;var g=e.target.closest("button[data-go]");if(g&&cur)window.open((g.dataset.go==="a"&&cur.pdf)?cur.pdf:(g.dataset.go==="a"?A:B)+cur.id,"_blank","noopener")});
+fetch("jobs.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():Promise.reject()}).then(function(j){if(j&&j.items&&j.items.length){D=j.items;var u=document.getElementById("up");if(u&&j.updated){try{u.textContent="آخر تحديث: "+new Date(j.updated).toLocaleString("ar-MA")}catch(e){}}render()}}).catch(function(){});
+render();
+</script>
+</body>
+</html>
