@@ -105,6 +105,7 @@ document.getElementById("go").addEventListener("click",render);
 var P=document.getElementById("pop");
 var cur;function show(i){var x=cur=D[i],r=days(x.d),R=[["الإدارة المنظمة",x.o],["عدد المناصب",x.n],["آخر أجل للترشح",fmt(x.d)+" - "+x.h]];
 if(x.e)R.push(["تاريخ إجراء المباراة",fmt(x.e)]);
+if(x.pub)R.push(["تاريخ النشر",fmt(x.pub)]);if(x.g)R.push(["الدرجة",x.g]);if(x.dep)R.push(["نوع الإيداع",x.dep]);if(x.code)R.push(["رمز المباراة",x.code]);
 R.push(["الأيام المتبقية",r<0?"انتهى الأجل":r+" يوم"]);
 var h='<h2>'+esc(x.t)+'</h2>'+(x.desc?'<p>'+esc(x.desc)+'</p>':'')+'<table>'+R.map(function(a){return'<tr><th>'+a[0]+'</th><td>'+esc(String(a[1]))+'</td></tr>'}).join("")+'</table>';
 [["docs","الوثائق المطلوبة"],["spec","التخصصات المطلوبة"],["cond","شروط الترشح"]].forEach(function(k){if(x[k[0]])h+='<h3>'+k[1]+'</h3><ul>'+x[k[0]].map(function(v){return'<li>'+esc(v)+'</li>'}).join("")+'</ul>'});
